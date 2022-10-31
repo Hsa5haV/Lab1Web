@@ -17,33 +17,23 @@
     caption{
       text-align: center;
     }
-    table{
-            border: 5px solid blueviolet;
-            background-color: green;
-            
+    table th {
+          text-align: center;
+          background-color: green;
+          color: red;
+          font-weight: bold;
         }
-
-        table td:nth-child(odd){
-            background-color: gray;
-            color: red;
-            font-weight: bold;
-            text-align: center;
+        table tr:nth-child(even) {
+          background-color: grey;
         }
-        table td:nth-child(even){
-            background-color: aqua;
-            color: red;
-            text-align: center;
+        table *:not(caption){
+          border: 2px dashed purple;
+          padding: 2px;
+          text-align: center;
         }
-
-        table td, th{
-            padding: 2px;
-            text-align: center;
-            border: 1px solid blue;
+        table td:last-child {
+          text-align: right;
         }
-       
-
-        
-
     </style>
   </head>
   <body>
