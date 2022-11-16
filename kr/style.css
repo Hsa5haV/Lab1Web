@@ -1,0 +1,425 @@
+table {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px black;
+  }
+
+  tr {
+    border: 2px solid black;
+  }
+
+  th {
+    text-align: center;
+    border: 2px solid black;
+  }
+
+  td {
+    text-align: left;
+    border: 2px solid black;
+  }
+  
+  @media(max-width: 769px){
+    .block1 {
+        background-color: yellow;
+        width: 100%;
+        font-size: 100%;
+        height: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+      }
+    
+      .title122 {
+        width: 50px;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0 5px;
+        display: inline-block;
+        border: 2px solid black;
+        background: red;
+        color: darkblue;
+      }
+
+      .block2 {
+        background-color: orange;
+        width: 100%;
+        font-size: 100%;
+        height: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .title234 span {
+        border: 2px solid;
+        background-color: red;
+        font-size: 20px;
+        font-weight: 700;
+        display: inline-block;
+        padding: 0 5px;
+      }
+    
+      .title234 {
+        text-align: right;
+      }
+
+      .block3 {
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .title356 {
+        text-align: right;
+      }
+    
+      .title356 span {
+        font-size: 20px;
+        font-weight: 700;
+        width: 80px;
+        border: 2px solid black;
+        background: purple;
+        display: inline-block;
+        color: blanchedalmond;
+      }
+
+      .block4 {
+        background-color: purple;
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .title433 {
+        text-align: right;
+      }
+
+      .title433 span {
+        font-size: 20px;
+        font-weight: 700;
+        width: 110px;
+        padding: 0 5px;
+        border: 2px solid black;
+        background: blue;
+        display: inline-block;
+        color: yellow;
+      }
+  }
+  @media(min-width: 769px) and (max-width: 993px){
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .block1 {
+        background-color: yellow;
+    
+        font-size: 100%;
+        height: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        flex: 0 0 49%;
+      }
+    
+      .title122 {
+        width: 50px;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0 5px;
+        display: inline-block;
+        border: 2px solid black;
+        background: red;
+        color: darkblue;
+      }
+
+      .block2 {
+        background-color: orange;
+        
+        font-size: 100%;
+        height: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex: 0 0 49%;
+        flex-direction: column;
+      }
+    
+      .title234 span {
+        border: 2px solid;
+        background-color: red;
+        font-size: 20px;
+        font-weight: 700;
+        display: inline-block;
+        padding: 0 5px;
+      }
+    
+      .title234 {
+        text-align: right;
+      }
+
+      .block3 {
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 100%;
+        flex: 0 0 43%;
+        font-size: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .title356 {
+        text-align: right;
+      }
+    
+      .title356 span {
+        font-size: 20px;
+        font-weight: 700;
+        width: 80px;
+        border: 2px solid black;
+        background: purple;
+        display: inline-block;
+        color: blanchedalmond;
+      }
+
+      .block4 {
+        background-color: purple;
+        width: 100%;
+        height: 100%;
+        flex: 0 0 48%;
+        font-size: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .title433 {
+        text-align: right;
+      }
+
+      .title433 span {
+        font-size: 20px;
+        font-weight: 700;
+        width: 110px;
+        padding: 0 5px;
+        border: 2px solid black;
+        background: blue;
+        display: inline-block;
+        color: yellow;
+      }
+  }
+  @media(min-width: 993px) and (max-width: 1201px){
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .block1 {
+        background-color: yellow;
+    
+        font-size: 100%;
+        height: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        flex: 0 0 33%;
+      }
+    
+      .title122 {
+        width: 50px;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0 5px;
+        display: inline-block;
+        border: 2px solid black;
+        background: red;
+        color: darkblue;
+      }
+
+      .block2 {
+        background-color: orange;
+        
+        font-size: 100%;
+        height: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex: 0 0 33%;
+        flex-direction: column;
+      }
+    
+      .title234 span {
+        border: 2px solid;
+        background-color: red;
+        font-size: 20px;
+        font-weight: 700;
+        display: inline-block;
+        padding: 0 5px;
+      }
+    
+      .title234 {
+        text-align: right;
+      }
+
+      .block3 {
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 100%;
+        flex: 0 0 32%;
+        font-size: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .title356 {
+        text-align: right;
+      }
+    
+      .title356 span {
+        font-size: 20px;
+        font-weight: 700;
+        width: 80px;
+        border: 2px solid black;
+        background: purple;
+        display: inline-block;
+        color: blanchedalmond;
+      }
+
+      .block4 {
+        background-color: purple;
+        width: 100%;
+        height: 100%;
+        
+        font-size: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .title433 {
+        text-align: right;
+      }
+
+      .title433 span {
+        font-size: 20px;
+        font-weight: 700;
+        width: 110px;
+        padding: 0 5px;
+        border: 2px solid black;
+        background: blue;
+        display: inline-block;
+        color: yellow;
+      }
+  }
+  @media(min-width: 1199px){
+    .wrapper{
+        display: flex;
+    }
+    .block1 {
+        background-color: yellow;
+    
+        font-size: 100%;
+        height: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+      }
+    
+      .title122 {
+        width: 50px;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0 5px;
+        display: inline-block;
+        border: 2px solid black;
+        background: red;
+        color: darkblue;
+      }
+
+      .block2 {
+        background-color: orange;
+        
+        font-size: 100%;
+        height: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .title234 span {
+        border: 2px solid;
+        background-color: red;
+        font-size: 20px;
+        font-weight: 700;
+        display: inline-block;
+        padding: 0 5px;
+      }
+    
+      .title234 {
+        text-align: right;
+      }
+
+      .block3 {
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .title356 {
+        text-align: right;
+      }
+    
+      .title356 span {
+        font-size: 20px;
+        font-weight: 700;
+        width: 80px;
+        border: 2px solid black;
+        background: purple;
+        display: inline-block;
+        color: blanchedalmond;
+      }
+
+      .block4 {
+        background-color: purple;
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .title433 {
+        text-align: right;
+      }
+
+      .title433 span {
+        font-size: 20px;
+        font-weight: 700;
+        width: 110px;
+        padding: 0 5px;
+        border: 2px solid black;
+        background: blue;
+        display: inline-block;
+        color: yellow;
+      }
+  }
