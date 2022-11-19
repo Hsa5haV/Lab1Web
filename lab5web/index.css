@@ -1,0 +1,61 @@
+* h1 {
+  text-align: center;
+  font-size: 24px;
+}
+p{
+  font-size: 120%;
+}
+.p1:visited {
+color: orangered;
+}
+.p1:link {
+color: green;  
+}
+.p2:visited {
+  color: skyblue;
+}
+.p2:link{
+  color: royalblue;
+}
+.p3:visited {
+  color: pink;
+}
+.p3:link{
+  color: yellow;
+}
+.p4:visited {
+  color: orange;
+}
+.p4:link{
+  color:lightgreen;
+}
+
+
+@media (max-width: 768px) {
+	.links {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.links a {
+		flex: 1 100%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.links {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	.links a {
+		flex: 1 50%;
+	}
+}
+
+@media (min-width: 993px) {
+	.links {
+		display: flex;
+		justify-content: space-around;
+	}
+}
