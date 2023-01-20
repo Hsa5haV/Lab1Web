@@ -10,11 +10,10 @@ h2 {
 }
 .base-list ul > li:nth-child(odd){
   background-color: grey;
-  color:red;
+  color: red;
 }
 .base-list ul > li:nth-child(even){
 background-color: white;
-color: blue;
 }
 ol ol > li:nth-child(3), ol ol > li:nth-child(5) {
   cursor: pointer;
