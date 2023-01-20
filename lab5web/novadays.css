@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .one a{
+    font-style: italic;
+  }
+ h3 {
+  text-align: center;
+ }
+ul>li>ul>li:nth-child(odd){
+  background-color: grey;
+  color: red;
+}
+ul>li>ul>li:nth-child(even){
+  background-color: white;
+  color: blue;
+}
+h2{
+  text-align: center;
+}    
+.three:hover{
+  cursor: pointer;
+}
+.four li{
+  background-color: red;
+}
+
+
+.five:hover{
+  cursor: pointer;
+}
+
+@media (min-width: 993px) {
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .container > * {
+      flex: 1 50%;
+   }
+}

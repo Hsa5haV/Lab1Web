@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+   }
+   div a{
+    font-style: italic;
+   }
+   h3 {
+    text-align: center;
+   }
+.div1  h2 a:visited {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color: blue;
+
+}
+.div1 h2 a:visited{
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+border: medium  red;
+}
+.div1 a:hover {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color: magenta;  
+}
+.div1 a:active {
+color:yellow;
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+}
+.div2 h2 a:visited {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color: blue;
+width: 100%;
+}
+.div2 a:hover {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color: magenta;  
+}
+.div2 a:active {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color:yellow;
+}
+.div3 h2 a:visited {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color: blue;
+width: 100%;
+}
+.div3 a:hover {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color: magenta;  
+
+}
+.div3 a:active {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color:yellow;
+}
+.div4 h2 a:visited {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color: blue;
+width: 100%;
+}
+.div4 a:hover {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color: magenta;  
+}
+.div4 a:active { 
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color:yellow;
+}
+.div5 h2 a:visited {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color: blue;
+width: 100%;
+border: 2cm
+}
+.div5 a:hover {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color: magenta;  
+}
+.div5 a:active {
+width: 100%;
+border-width: 2px;
+border-style: dotted;
+    border-color: black;
+color:yellow;
+}
+p {
+font-size: 120%;
+}
+h2 {
+font-size: 140%;
+}
+h1{
+font-size: 140%;
+}
+h3{
+font-size: 140%;
+}
+h4{
+font-size: 140%;
+}
+h5{
+font-size: 140%;
+}
+.container > article:nth-child(1) {
+    background-color: brown;
+}
+.container > article:nth-child(2) {
+    background-color: black;
+    color: white;
+}
+.container > article:nth-child(3) {
+    background-color: yellow;
+}
+.container > article:nth-child(4) {
+    background-color: aqua;
+}
+.container > article:nth-child(5) {
+    background-color: burlywood;
+}
+
+.container > article:nth-child(1) p {
+    color: blue;
+}
+.container > article:nth-child(2) p {
+    color:red;
+}
+.container > article:nth-child(3) p {
+    color: darkblue;
+}
+.container > article:nth-child(4) p {
+    color: darkviolet;
+}
+.container > article:nth-child(5) p {
+    color: aqua;
+}
+.bold_link {
+font-weight: bold;
+}
+.to_top {
+text-transform: uppercase;
+}
+
+
+@media (min-width: 993px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article {
+        border: 1px solid black;
+        margin: 15px;
+        padding: 5px;
+    }
+    article:nth-child(1), article:nth-child(2), article:nth-child(3) {
+        flex:  30%;
+    }
+    article:nth-child(4), article:nth-child(5) {
+        flex: 45%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article {
+        border: 1px solid black;
+        margin: 15px;
+        padding: 5px;
+    }
+    article:nth-child(1), article:nth-child(2), article:nth-child(3) {
+        flex:  29%;
+    }
+    article:nth-child(4), article:nth-child(5) {
+        flex: 100%;
+    }
+}
