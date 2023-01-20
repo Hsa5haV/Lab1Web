@@ -10,7 +10,7 @@ h2 {
 }
 .base-list ul > li:nth-child(odd){
   background-color: grey;
-  color: red;
+  color: blue;
 }
 .base-list ul > li:nth-child(even){
 background-color: white;
