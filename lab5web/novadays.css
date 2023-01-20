@@ -2,6 +2,9 @@ h1 {
   text-align: center;
   font-size: 22px;
 }
+.one {
+  font-style: italic;
+}
 body > a:nth-child(2) {
   font-style: italic;
 }
